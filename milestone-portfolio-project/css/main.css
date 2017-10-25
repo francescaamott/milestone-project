@@ -1,0 +1,217 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Cardo', serif;
+  font-family: 'Cinzel', serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+#about {
+  height: 800px;
+}
+
+#work {
+  height: 900px;
+}
+
+#contact {
+  height: 500px;
+  background-color: #f8f8f8;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.half-width-center {
+  width: 375px;
+  float: left;
+}
+
+.third-width-left {
+  width: 100px;
+  float: left;
+}
+
+.third-width {
+  width: 500px;
+  float: left;
+}
+
+.center-box {
+  width: 200px;
+  height: 200px;
+  float: left;
+  clear: both;
+  border: 1px solid #7B0046;
+  padding: 10px 15px 0px 30px;
+  margin: 0px 10px 20px 500px;
+}
+
+.center-width {
+  width: 600px;
+  float: left;
+  padding: 10px 10px 0px 40px;
+}
+
+.right-box {
+  width: 275px;
+  height: 250px;
+  float: right;
+  border: 1px solid #7B0046;
+  padding: 0px 0px 20px 10px;
+  margin: -40px 90px 20px 40px;
+}
+
+.third-width-right {
+  width: 150px;
+  float: right;
+  padding-right: 100px;
+}
+
+/***** HEADER *****/
+header {
+  height: 800px;
+  background-image: url('../img/beach.png');
+  background-size: cover;
+}
+
+header h1 {
+  padding: 0px 0;
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  color: #003660;
+}
+
+nav {
+  float: right;
+  padding: 40px 5px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 80px;
+  color: #003660;
+}
+
+/***** ABOUT *****/
+#about .full-width {
+  padding: 80px 0
+}
+
+#about .third-width {
+  padding-top: 0px;
+  margin: 20px;
+  text-align: justify;
+}
+
+#about h2 {
+  font-family: 'Cardo', serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #003660;
+}
+
+#about h3 {
+  font-family: 'Pontano Sans', sans-serif;
+  color: #32004B;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#about p {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding-right: 30px;
+  color: #32004B;
+}
+
+/***** WORK *****/
+#work h2 {
+  font-family: 'Cardo', serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #003660;
+}
+
+#work p {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  color: #32004B;
+}
+
+#work .third-width-left {
+  width: 75px;
+}
+
+#work .center-box {
+  width: 700px;
+  height: 150px;
+  float: left;
+  border: 1px solid #7B0046;
+  padding: 10px 0px 25px 30px;
+  margin: 50px 100px 50px 250px;
+}
+
+/***** CONTACT *****/
+#contact h2 {
+  font-family: 'Cardo', serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #003660;
+}
+
+#contact h3 {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18px;
+  color: #7B0046;
+  text-align: center;
+}
+
+#contact ul li {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18px;
+  color: #003660;
+  padding: 30px 30px 20px 0px;
+  display: inline-block;
+  float: left;
+
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact .half-width-center {
+  padding-top: 100px;
+}
+
+#contact a {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #003663;
+  padding: 2px;
+}
+
+.logo {
+  clear: right;
+}
